@@ -27,8 +27,9 @@ Start by creating a **Material** using your Shader Graph and assign it to the Me
 
 #### Step 1: Texture Setup
 Create a `Texture2D` property for your foliage texture.
+> Note the following texture may appear invisible on a browser if not viewed in dark mode (White splotch patterns on a transparent background)
 
-![2D Texture](image-1.png)
+![2D Texture](FoliageTexture.png)
 
 Add a **Sample Texture 2D** node and connect the desired output channel (e.g., Green) to the **Alpha** port on the Master Stack.
 
